@@ -12,7 +12,7 @@ function Login() {
     const e1=localStorage.getItem('email');
     const p2=localStorage.getItem('pass');
 
-   
+  
     
     if(id.current.value===e1){
       if(JSON.stringify(p1.current.value)===JSON.stringify(p2)){
@@ -30,7 +30,7 @@ function Login() {
   const closepress=()=>{
     setLoginStatus(false);
   }
-  
+ 
   return (
     <Container>
       <h1 style={{textAlign:'center', fontSize:'50px',color:'#1a1c80'}}>vehicle Tracking System</h1>
