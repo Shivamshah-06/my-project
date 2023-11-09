@@ -70,7 +70,7 @@ const BigDiv = styled.div`
 height:100vh;
 width:100vw;
 background-color:#010a4bc7;
-background-image:url('/Images/home7.jpg');
+background-image:url('./Images/home7.jpg');
 background-repeat: no-repeat;
 background-size:cover;
 
@@ -84,7 +84,7 @@ padding:10px;
 `
 const Container=styled.div`
 border-radius: 50px;
-background-image:url('/Images/track.jpg');
+background-image:url('./Images/track.jpg');
 border-style:solid;
 padding:30px;
 width:1000px;

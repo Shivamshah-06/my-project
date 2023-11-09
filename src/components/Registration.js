@@ -43,7 +43,7 @@ export default Registration
 const Container = styled.div`
 height:1000px;
 background-color:#3dc2b2c7;
-background-image:url('/Images/hand-painted-watercolor-pastel-sky-background_23-2148902771.avif');
+background-image:url('./Images/hand-painted-watercolor-pastel-sky-background_23-2148902771.avif');
 background-repeat: no-repeat;
 background-size:cover;
 padding:50px;
@@ -57,7 +57,7 @@ const LoginWindow = styled.div`
 width:700px;
 height:600px;
 background-color:#0f0f46;
-background-image:url('/Images/login2.jpeg');
+background-image:url('./Images/login2.jpeg');
 background-repeat: no-repeat;
 background-size:cover;
 font-size:25px;

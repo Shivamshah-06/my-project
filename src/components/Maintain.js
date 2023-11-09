@@ -62,7 +62,7 @@ const Wrap=styled.div`
 border-style:solid;
 width:800px;
 height:800px;
-background-image:url('/Images/Main.jpg');
+background-image:url('./Images/Main.jpg');
 background-repeat: no-repeat;
 background-size:cover;
 padding:50px;
@@ -88,6 +88,6 @@ width: 700px;
 height:200px;
 border-radius:20px;
 margin:20px;
-background-image:url('/Images/Sub2.jpeg');
+background-image:url('./Images/Sub2.jpeg');
 background-repeat: no-repeat;
 background-size:cover;`
