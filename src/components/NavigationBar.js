@@ -27,7 +27,7 @@ function NavigationBar() {
         </Maintain>
         <Profile  onClick={()=>setBurgerStatus(true)}>
         <img src="./Images/profile.png" id="mapimg" />
-        Profile
+       
         </Profile>
         
         <BurgerNav show={burgerStatus}>
