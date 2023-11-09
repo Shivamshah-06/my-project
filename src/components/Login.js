@@ -89,7 +89,7 @@ const LoginWindow = styled.div`
 width:700px;
 height:600px;
 background-color:#0f0f46;
-background-image:url('./Images/login2.JPEG');
+background-image:url('./Images/login2.jpeg');
 background-repeat: no-repeat;
 background-size:cover;
 font-size:25px;

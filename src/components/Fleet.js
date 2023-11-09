@@ -11,12 +11,29 @@ function Fleet() {
   const f5=useRef();
   const f6=useRef();
   const f7=useRef();
+  const [text1, setText1]=useState("");
+  const [text2, setText2]=useState("");
+  const [text3, setText3]=useState("");
+  const [text4, setText4]=useState("");
+  const [text5, setText5]=useState("");
+  const [text6, setText6]=useState("");  
+  const [text7, setText7]=useState("");
+
+  
+
   const HancleClick=()=>{
     if(!f1.current.value || !f2.current.value || !f3.current.value || !f4.current.value || !f5.current.value || !f6.current.value || !f7.current.value ){
       alert("fill up all the field");
     }
     else{
       setLoginStatus(true);
+      setText1(f1.current.value);
+      setText2(f2.current.value);
+      setText3(f3.current.value);
+      setText4(f4.current.value);
+      setText5(f5.current.value);
+      setText6(f6.current.value);
+      setText7(f7.current.value);
     }
    }
    const closepress=()=>{
@@ -44,7 +61,7 @@ function Fleet() {
       </SupDiv>
       <SupDiv>
         <Head4>
-        Enter Your Contact  Number(for sending alert)
+        Enter Your Contact  Number
       </Head4>
       <InputField ref={f2} />
       </SupDiv>
@@ -58,7 +75,7 @@ function Fleet() {
       </SupDiv>
       <SupDiv>
         <Head4>
-        Enter Driver's Contact  Number(for sending warning)
+        Enter Driver's Contact  Number
       </Head4>
       <InputField ref={f4} />
       </SupDiv>
@@ -83,10 +100,19 @@ function Fleet() {
           <CloseWrapper onClick={closepress}>
         <img src="./Images/close.png" id="mapimg" />
         </CloseWrapper>
-            <h2 style={{textAlign:'center'}}>Vehicle Tracked</h2>
+            <h2 style={{textAlign:'center'}}>Target set successfully</h2>
             <h3 style={{textAlign:'center'}}>Vehicle Details</h3>
-            
-            <a href="https://www.google.com/maps/place/Techno+Main+Salt+Lake/@22.5761707,88.4244544,17z/data=!3m1!4b1!4m6!3m5!1s0x3a02751a9d9c9e85:0x7fe665c781b10383!8m2!3d22.5761707!4d88.4270293!16s%2Fg%2F11fml2v54k?entry=ttu" style={{textDecoration:'none' ,padding:'20px', backgroundColor:'green',borderRadius:'25px',margin:'20px',textAlign:'center'}} onClick={closepress}>Click to see location</a>
+          <ul>
+          <li>Owner:{text1}</li>
+            <li>Driver Name:{text3}</li>
+            <li>Vehicle owner will recieve alert if any irregularaties happens at :{text2}</li>
+            <li>driver will recieve warning if any irregularaties happens at:{text4}</li>
+            <li>Vehicle Radius:{text7}</li>
+            <li>Vehicle No.:{text5}</li>
+            <li>Central Location:{text6}</li>
+          </ul>
+
+            <a href="https://www.google.com/maps/place/Techno+Main+Salt+Lake/@22.5761707,88.4244544,17z/data=!3m1!4b1!4m6!3m5!1s0x3a02751a9d9c9e85:0x7fe665c781b10383!8m2!3d22.5761707!4d88.4270293!16s%2Fg%2F11fml2v54k?entry=ttu" style={{textDecoration:'none' ,padding:'20px', backgroundColor:'green',borderRadius:'25px',margin:'20px',textAlign:'center'}} onClick={closepress}>Click to see live location</a>
 
           </PassWindow>
     </Container>
@@ -181,7 +207,7 @@ position: fixed;
 color:black;
 
 background:white;
- width:703px;
+ width:1000px;
  heigth:300px;
  z-index:16;
  border-radius:25px;
@@ -190,7 +216,7 @@ background:white;
  justify-content:center;
  flex-direction:column;
  align-item:center;
- transform: ${props => props.show ? "translateX(-4.5%)":"translateX(1000%)"};
+ transform: ${props => props.show ? "translateX(-3%)":"translateX(1000%)"};
  transition:transform 0s ;
  Link{
   padding:20px;

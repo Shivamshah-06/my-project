@@ -9,17 +9,27 @@ function Section() {
   const f2=useRef();
   const f3=useRef();
   const f4=useRef();
+  const [text1, setText1]=useState("");
+  const [text2, setText2]=useState("");
+  const [text3, setText3]=useState("");
+  const [text4, setText4]=useState("");
   const HancleClick=()=>{
+    
     if(!f1.current.value || !f2.current.value || !f3.current.value || !f4.current.value ){
       alert("fill up all the field");
     }
     else{
       setLoginStatus(true);
+      setText1(f1.current.value);
+      setText2(f2.current.value);
+      setText3(f3.current.value);
+      setText4(f4.current.value);
     }
    }
    const closepress=()=>{
     setLoginStatus(false);
   }
+  
  
   return (
     <BigDiv>
@@ -56,7 +66,11 @@ function Section() {
         </CloseWrapper>
             <h2 style={{textAlign:'center'}}>Vehicle Tracked</h2>
             <h3 style={{textAlign:'center'}}>Vehicle Details</h3>
-           
+            <h4>Owner:{text1}</h4>
+            <h4>Vehicle Name:{text2}</h4>
+            <h4>Vehicle No.:{text3}</h4>
+            <h4>Vehicle Colour:{text4}</h4>
+            
             <a href="https://www.google.com/maps/place/Techno+Main+Salt+Lake/@22.5761707,88.4244544,17z/data=!3m1!4b1!4m6!3m5!1s0x3a02751a9d9c9e85:0x7fe665c781b10383!8m2!3d22.5761707!4d88.4270293!16s%2Fg%2F11fml2v54k?entry=ttu" style={{textDecoration:'none' ,padding:'20px', backgroundColor:'green',borderRadius:'25px',margin:'20px',textAlign:'center'}} onClick={closepress}>Click to see location</a>
 
           </PassWindow>
