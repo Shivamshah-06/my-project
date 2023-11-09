@@ -36,10 +36,10 @@ function NavigationBar() {
         
         </CloseWrapper>
         <li><h1>Name</h1></li>
-        <li><h4>Shivam Shah</h4></li>
+        <li><h4>{(localStorage.getItem('name'))}</h4></li>
         <hr />
         <li><h1>Vehicle Number</h1></li>
-        <li><h4>MH01 AB 1234</h4></li>
+        <li><h4>{(localStorage.getItem('vehi'))}</h4></li>
         <hr />
         
         

@@ -4,11 +4,17 @@ import { Link } from 'react-router-dom'
 
 
 function Registration() {
+  const name=useRef();
+  const vehi=useRef();
   const email=useRef();
   const pwd=useRef();
+  
   const handleClick=()=>{
+    localStorage.setItem("name",name.current.value);
+    localStorage.setItem("vehi",vehi.current.value);
     localStorage.setItem("email",email.current.value);
     localStorage.setItem("pass",pwd.current.value);
+    
   }
   
   return (
@@ -19,6 +25,10 @@ function Registration() {
       <Head1>
         REGISTER YOURSELF
       </Head1>
+      <Head4>Enter Name</Head4>
+      <InputField ref={name}/><br />
+      <Head4>Enter Vehicle No.</Head4>
+      <InputField ref={vehi}/><br />
       <Head4>
         Enter Email
       </Head4>
