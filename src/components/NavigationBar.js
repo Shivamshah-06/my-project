@@ -10,8 +10,8 @@ function NavigationBar() {
         <Map>
            
             <a href="https://www.google.com/maps/@22.6230272,88.3851264,13z?entry=ttu" style={{textDecoration:'none'}}>
-            {/* <img src="/Images/map.png" id="mapimg" /> */}
-            Use Map</a>
+            <img src="./Images/map.png" id="mapimg" />
+            Use Map hhhhh</a>
             
         </Map>
         <Tracker>
@@ -26,14 +26,14 @@ function NavigationBar() {
             
         </Maintain>
         <Profile  onClick={()=>setBurgerStatus(true)}>
-        {/* <img src="/Images/profile.png" id="mapimg" /> */}
+        <img src="./Images/profile.png" id="mapimg" />
         Profile
         </Profile>
         
         <BurgerNav show={burgerStatus}>
         <CloseWrapper onClick={()=>setBurgerStatus(false)}>
-        {/* <img src="/Images/close.png" id="mapimg" /> */}
-        Close
+        <img src="./Images/close.png" id="mapimg" />
+        Close hhh
         </CloseWrapper>
         <li><h1>Name</h1></li>
         <li><h4>Shivam Shah</h4></li>

@@ -17,14 +17,14 @@ function Maintain() {
               Mileage Metre
               </Head>
               Your Average Mileage is: 40KM/Litre <br />
-              <a href="/Images/Mileage.png" style={{FontWeight:'bold',color:'#9c0d0d'}}>View Details</a>
+              <a href="./Images/Mileage.png" style={{FontWeight:'bold',color:'#9c0d0d'}}>View Details</a>
             </SubDiv>
             <SubDiv>
             <Head>
               Average Speed
               </Head>
               Your Average Speed is: 60KM/Hour <br />
-              <a href="/Images/speed.png" style={{FontWeight:'bold',color:'#9c0d0d'}}>View Details</a>
+              <a href="./Images/speed.png" style={{FontWeight:'bold',color:'#9c0d0d'}}>View Details</a>
             </SubDiv>
             <SubDiv>
             <Head>
@@ -32,7 +32,7 @@ function Maintain() {
               </Head>
               Total Distance Travel:52666.55KM <br />
               Average Per Day Distance Travel: 26KM <br/>
-              <a href="/Images/distance.jpg" style={{FontWeight:'bold',color:'#9c0d0d'}}>View Details</a>
+              <a href="./Images/distance.jpg" style={{FontWeight:'bold',color:'#9c0d0d'}}>View Details</a>
             </SubDiv>
             
         </Wrap>
@@ -46,7 +46,7 @@ const BigDiv = styled.div`
 height:100vh;
 width:100vw;
 background-color:#010a4bc7;
-background-image:url('/Images/home7.jpg');
+background-image:url('./Images/home7.jpg');
 background-repeat: no-repeat;
 background-size:cover;
 
