@@ -32,7 +32,7 @@ function Login() {
   }
  
   return (
-    <Container>
+    <Container >
       <h1 style={{textAlign:'center', fontSize:'50px',color:'#1a1c80'}}>vehicle Tracking System</h1>
       <LoginWindow>
         <Head1>
@@ -71,13 +71,14 @@ function Login() {
 
 export default Login
 const Container = styled.div`
-height:1000px;
+height:100vh;
+width:100vw;
 background-color:#3dc2b2c7;
 background-image:url('./Images/hand-painted-watercolor-pastel-sky-background_23-2148902771.avif');
 background-repeat: no-repeat;
 background-size:cover;
 padding:50px;
-
+ 
 display:flex;
 flex-direction:column;
 justify-content:center;
@@ -107,7 +108,7 @@ padding:25px;
 
 `
 const Head4=styled.div`
-padding:5px;
+padding:5px;  
 font-size:30px;
 `
 const InputField=styled.input`

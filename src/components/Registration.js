@@ -51,7 +51,8 @@ function Registration() {
 
 export default Registration
 const Container = styled.div`
-height:1000px;
+height:100vh;
+width:100vw;
 background-color:#3dc2b2c7;
 background-image:url('./Images/hand-painted-watercolor-pastel-sky-background_23-2148902771.avif');
 background-repeat: no-repeat;
