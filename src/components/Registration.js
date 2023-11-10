@@ -59,7 +59,7 @@ background-repeat: no-repeat;
 background-size:cover;
 padding:50px;
 display:flex;
-
+flex-direction:column;
 justify-content:center;
 align-items:center;
 `
@@ -78,7 +78,7 @@ border-radius:25px;
 font-size:20px;
 display:flex;
 flex-direction:column;
-justify-content:center;
+align-items:center;
 
 color:white;
 `
