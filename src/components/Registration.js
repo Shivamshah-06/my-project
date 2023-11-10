@@ -60,7 +60,7 @@ background-size:cover;
 padding:50px;
 display:flex;
 flex-direction:column;
-justify-content:center;
+
 align-items:center;
 `
 const LoginWindow = styled.div`
@@ -78,7 +78,7 @@ border-radius:25px;
 font-size:20px;
 display:flex;
 flex-direction:column;
-align-items:center;
+justify-content:center;
 
 color:white;
 `
