@@ -129,8 +129,6 @@ background-color:#010a4bc7;
 background-image:url('./Images/home7.jpg');
 background-repeat: no-repeat;
 background-size:cover;
-
-
 `
 const Wrap=styled.div`
 
@@ -148,8 +146,6 @@ display:flex;
 flex-direction:column;
 justify-content: center;
 margin:20px;
-
-
 font-size:30px;
 color:white;`
 
@@ -167,13 +163,10 @@ font-size:30px;
 height:30px;
 border-radius: 5px;
 background-color:#a7e0ca;
-
 border:none;
-
 `
 const ButtonDiv=styled.div`
 display:flex;
-
 justify-content:center;
 align-items:center;`
 const LoginButtton=styled.button`
