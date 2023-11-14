@@ -200,11 +200,11 @@ position: fixed;
 color:black;
 
 background:white;
- width:1000px;
+ width:800px;
  heigth:300px;
  z-index:16;
  border-radius:25px;
- padding:100px;
+ padding:50px;
  display:flex;
  justify-content:center;
  flex-direction:column;

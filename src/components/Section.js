@@ -144,7 +144,7 @@ const PassWindow=styled.div`
 position: fixed;
 color:black;
 background:white;
- width:703px;
+ width:800px;
  heigth:300px;
  z-index:16;
  border-radius:25px;
