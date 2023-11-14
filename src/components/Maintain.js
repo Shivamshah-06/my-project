@@ -61,33 +61,33 @@ padding:20px;
 const Wrap=styled.div`
 border-style:solid;
 width:600px;
-height:700px;
+height:600px;
 background-image:url('./Images/Main.jpg');
 background-repeat: no-repeat;
 background-size:cover;
-padding:50px;
+padding:20px;
 border-radius:25px;
 font-size:20px;
 display:flex;
 flex-direction:column;
-justify-content:center;
+
 align-items:center;
 color:white;`
 
 const Head=styled.div`
 font-weight:bolder;
 text-align:center;
-padding:5px;
+
 font-size:25px;
 `
 const SubDiv=styled.div`
-padding:20px;
+padding:10px;
 color:green;
 
 width: 500px;
 height:150px;
 border-radius:20px;
-margin:20px;
+margin:10px;
 background-image:url('./Images/Sub2.jpeg');
 background-repeat: no-repeat;
 background-size:cover;`
