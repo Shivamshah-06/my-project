@@ -142,11 +142,11 @@ background-image:url('./Images/track.jpg');
 border-style:solid;
 padding:20px;
 width:765px;
-height:625px;
+height:642px;
 display:flex;
 flex-direction:column;
 justify-content: center;
-margin:2px;
+
 font-size:30px;
 color:white;`
 
