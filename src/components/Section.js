@@ -85,16 +85,12 @@ const BigDiv = styled.div`
 height:100vh;
 width:100vw;
 background-color:#010a4bc7;
-background-image:url('./Images/home7.jpg');
+background-image:url('./Images/login2.jpg');
 background-repeat: no-repeat;
 background-size:cover;
-
-
 `
 const Wrap=styled.div`
-
 display:flex;
-
 justify-content: center;
 padding:20px;
 `
@@ -108,8 +104,6 @@ display:flex;
 flex-direction:column;
 justify-content: center;
 margin:20px;
-
-
 font-size:30px;
 color:white;`
 
@@ -122,21 +116,14 @@ padding:5px;
 `
 const InputField=styled.input`
 type: text;
-
 font-size:30px;
 height:40px;
 border-radius: 5px;
 background-color:#a7e0ca;
-
 border:none;
-&:required {
-  border-color: blue;
-}
-
 `
 const ButtonDiv=styled.div`
 display:flex;
-
 justify-content:center;
 align-items:center;`
 const LoginButtton=styled.button`
@@ -148,16 +135,13 @@ border-radius: 10px;
 width:300px;
 height:40px;
 align-items: center;  
-
 border:none;
 background-color:#39ba5f;
 `
 
 const PassWindow=styled.div`
 position: fixed;
-
 color:black;
-
 background:white;
  width:703px;
  heigth:300px;
