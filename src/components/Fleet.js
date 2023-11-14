@@ -141,7 +141,7 @@ border-radius: 50px;
 background-image:url('./Images/track.jpg');
 border-style:solid;
 padding:20px;
-width:1000px;
+width:76500px;
 height:625px;
 display:flex;
 flex-direction:column;
