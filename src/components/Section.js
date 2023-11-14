@@ -85,7 +85,7 @@ const BigDiv = styled.div`
 height:100vh;
 width:100vw;
 background-color:#010a4bc7;
-background-image:url('./Images/login2.jpg');
+background-image:url('./Images/login2.jpeg');
 background-repeat: no-repeat;
 background-size:cover;
 `
