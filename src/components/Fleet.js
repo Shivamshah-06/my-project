@@ -140,9 +140,9 @@ const Container=styled.div`
 border-radius: 50px;
 background-image:url('./Images/track.jpg');
 border-style:solid;
-padding:30px;
+padding:20px;
 width:1000px;
-height:700px;
+height:625px;
 display:flex;
 flex-direction:column;
 justify-content: center;
@@ -155,7 +155,7 @@ font-weight:bolder;
 text-align:center;
 padding:20px`
 const Head4=styled.div`
-padding:px;
+
 `
 const InputField=styled.input`
 type: text;
@@ -186,8 +186,7 @@ background-color:#39ba5f;
 
 const SubDiv=styled.div`
 display:flex;
-justify-content:space-between;
-padding:10px;
+
 `
 const SupDiv=styled.div`
 display:flex;
