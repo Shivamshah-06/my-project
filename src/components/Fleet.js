@@ -89,7 +89,7 @@ function Fleet() {
       </Head4>
       <InputField  ref={f6}/><br />
       <Head4>
-        Enter Area Radius (for setting Boundary in Kms)
+        Enter Area Radius 
       </Head4>
       <InputField  ref={f7}/><br />
       <ButtonDiv>
@@ -146,7 +146,7 @@ height:700px;
 display:flex;
 flex-direction:column;
 justify-content: center;
-margin:20px;
+margin:2px;
 font-size:30px;
 color:white;`
 
@@ -155,11 +155,11 @@ font-weight:bolder;
 text-align:center;
 padding:20px`
 const Head4=styled.div`
-padding:5px;
+padding:px;
 `
 const InputField=styled.input`
 type: text;
-width:400px;
+width:300px;
 font-size:30px;
 height:25px;
 border-radius:5px;
@@ -187,7 +187,7 @@ background-color:#39ba5f;
 const SubDiv=styled.div`
 display:flex;
 justify-content:space-between;
-
+padding:10px;
 `
 const SupDiv=styled.div`
 display:flex;
