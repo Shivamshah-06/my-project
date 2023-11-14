@@ -85,14 +85,14 @@ const BigDiv = styled.div`
 height:100vh;
 width:100vw;
 background-color:#010a4bc7;
-background-image:url('./Images/login2.jpeg');
+background-image:url('./Images/home7.jpg');
 background-repeat: no-repeat;
 background-size:cover;
 `
 const Wrap=styled.div`
-display:flex;
+display:flex;  
 justify-content: center;
-padding:20px;
+
 `
 const Container=styled.div`
 border-radius: 50px;
@@ -100,6 +100,7 @@ background-image:url('./Images/track.jpg');
 border-style:solid;
 padding:50px;
 width:800px;
+height:700px;
 display:flex;
 flex-direction:column;
 justify-content: center;
@@ -116,8 +117,8 @@ padding:5px;
 `
 const InputField=styled.input`
 type: text;
-font-size:30px;
-height:40px;
+font-size:20px;
+height:30px;
 border-radius: 5px;
 background-color:#a7e0ca;
 border:none;
