@@ -98,9 +98,9 @@ const Container=styled.div`
 border-radius: 50px;
 background-image:url('./Images/track.jpg');
 border-style:solid;
-padding:50px;
+padding:40px;
 width:800px;
-height:700px;
+height:600px;
 display:flex;
 flex-direction:column;
 justify-content: center;
@@ -111,7 +111,7 @@ color:white;`
 const Head=styled.div`
 font-weight:bolder;
 text-align:center;
-padding:50px`
+padding:30px`
 const Head4=styled.div`
 padding:5px;
 `

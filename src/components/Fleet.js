@@ -142,6 +142,7 @@ background-image:url('./Images/track.jpg');
 border-style:solid;
 padding:30px;
 width:1000px;
+height:700px;
 display:flex;
 flex-direction:column;
 justify-content: center;
@@ -152,7 +153,7 @@ color:white;`
 const Head=styled.div`
 font-weight:bolder;
 text-align:center;
-padding:30px`
+padding:20px`
 const Head4=styled.div`
 padding:5px;
 `
@@ -160,8 +161,8 @@ const InputField=styled.input`
 type: text;
 width:400px;
 font-size:30px;
-height:30px;
-border-radius: 5px;
+height:25px;
+border-radius:5px;
 background-color:#a7e0ca;
 border:none;
 `

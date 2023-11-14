@@ -60,8 +60,8 @@ padding:20px;
 `
 const Wrap=styled.div`
 border-style:solid;
-width:800px;
-height:800px;
+width:600px;
+height:700px;
 background-image:url('./Images/Main.jpg');
 background-repeat: no-repeat;
 background-size:cover;
@@ -84,8 +84,8 @@ const SubDiv=styled.div`
 padding:20px;
 color:green;
 
-width: 700px;
-height:200px;
+width: 500px;
+height:150px;
 border-radius:20px;
 margin:20px;
 background-image:url('./Images/Sub2.jpeg');
